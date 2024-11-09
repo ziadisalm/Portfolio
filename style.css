@@ -1,0 +1,96 @@
+html{
+    background-image: url(pexels-veeterzy-303383.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 5%;
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: raleway;
+    padding: 20px;
+    border-radius: 10px q;
+}
+h1, p{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1em;
+}
+label{
+    display: block;
+    margin: 1em;
+}
+input, select{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 0.3em;
+    background-color: #fbfbfb;
+    border: solid 1px #CCC;
+    resize: vertical;
+    border-radius: 10px;
+}
+input[type=checkbox],input[type=radio]{
+    display: inline;
+    width: auto;
+}
+.inline-label {
+    display: inline;
+    width: auto;
+}
+option{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+select{
+    color: indigo;
+}
+input[type=submit]:hover,
+input[type=submit]:focus {
+    outline: none;
+    background: rgb(5, 129, 88);
+}
+input[type=reset]:hover,
+input[type=reset]:focus {
+    outline: none;
+    background: rgb(192, 3, 18);
+}
+input[type=reset],
+input[type=submit]{
+    background: rgb(27, 44, 141);
+    color: white;
+    margin-top: 1em;
+    border-radius: 10px;
+}
+
+.radio-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radio-item{
+    display: flex;
+    align-items: center;
+}
+
+input [type="radio"]{
+    margin-right: 8px;
+}
+
+.checkbox-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkbox-item{
+    display: flex;
+    align-items: center;
+}
+
+input [type="checkbox"]{
+    margin-right: 8px;
+}
